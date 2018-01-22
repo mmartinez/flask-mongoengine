@@ -23,7 +23,7 @@ _original_methods = {
     'update': pymongo.collection.Collection.update,
     'remove': pymongo.collection.Collection.remove,
     'refresh': pymongo.cursor.Cursor._refresh,
-    '_unpack_response': pymongo.helpers._unpack_response,
+    '_unpack_response': pymongo.helpers._raw_response,
 }
 
 queries = []
